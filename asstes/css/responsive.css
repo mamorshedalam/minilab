@@ -1,0 +1,527 @@
+@media (max-width: 992px) {
+
+    /* needed style */
+    :root {
+        /* font-size */
+        --t-20: 17px;
+        --t-22: 20px;
+        --t-23: 20px;
+        --t-25: 20px;
+        --t-30: 25px;
+        --t-65: 50px;
+        --t-100: 75px;
+        /* margin */
+        --m-h-100: 70px 0;
+        /* section space */
+        --sspace: 90px 0 50px 0;
+    }
+
+    /* title tag */
+    .title {
+        margin: 0 100px;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    /* needed style end */
+
+    /* banner section */
+    .banner_text p {
+        line-height: 40px;
+        padding: 15px 0 25px 0;
+    }
+
+    /* banner section */
+
+    /* product section */
+    .item p {
+        padding: 20px 0;
+    }
+
+    /* product section */
+
+    /* media section */
+    .media_text {
+        padding: 40px 0 40px 60px;
+    }
+
+    .media_text h1 {
+        text-align: left;
+    }
+
+    .media_text p {
+        padding: 40px 0;
+    }
+
+    /* media section */
+
+    /* testimonial section */
+
+    .testimonial_text p {
+        padding: 30px 0;
+    }
+
+    .testimonial_item {
+        padding: 25px;
+    }
+
+    .testimonial_item h4 {
+        padding: 10px 0;
+    }
+
+    /* testimonial section */
+
+    /* signin section */
+    #signin form {
+        margin: 15px 0;
+    }
+
+    /* signin section */
+
+    /* footer section */
+    #footer {
+        padding-top: 75px;
+    }
+
+    #footer_inner {
+        padding: 50px 0;
+    }
+
+    .footer_item ul {
+        padding-top: 30px;
+    }
+
+    /* footer section */
+}
+
+/* screen 768px */
+@media (max-width: 768px) {
+
+    /* needed style */
+    :root {
+        /* font-size */
+        --t-20: 13px;
+        --t-22: 15px;
+        --t-23: 16px;
+        --t-25: 18px;
+        --t-30: 20px;
+        --t-65: 35px;
+        --t-100: 55px;
+        /* margin */
+        --m-h-100: 50px 0;
+        /* section space */
+        --sspace: 70px 0 30px 0;
+    }
+
+    /* title tag */
+    .title {
+        margin: 0 70px;
+        line-height: 50px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 15px;
+    }
+
+    /* needed style end */
+
+
+    /* menu */
+    .nav_low {
+        display: grid;
+    }
+
+    #nav_inner {
+        display: none;
+    }
+
+    .active {
+        display: block !important;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 58px;
+        padding: 0 !important;
+        background: rgba(0, 0, 0, .7) !important;
+    }
+
+    .active .logo img {
+        display: none;
+    }
+
+    .active .menu ul {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .active .menu li {
+        border-bottom: 1px solid rgba(250, 250, 250, .5);
+    }
+
+    /* menu */
+
+    /* banner section */
+    .banner_text h1 {
+        line-height: 55px;
+    }
+
+    .banner_text p {
+        line-height: 30px;
+        padding: 12px 0 18px 0;
+    }
+
+    /* banner section */
+
+    /* product section */
+
+    .item {
+        padding: 15px;
+    }
+
+    .item h2 {
+        padding: 10px 0;
+    }
+
+    .item p {
+        padding: 5px 0;
+    }
+
+    /* product section */
+
+    /* media section */
+    .media_text {
+        padding: 25px 0 25px 30px;
+    }
+
+    .media_text p {
+        padding: 20px 0;
+    }
+
+    /* media section */
+
+    /* testimonial section */
+
+    .testimonial_text p {
+        padding: 20px 0;
+    }
+
+    .testimonial_item {
+        padding: 15px;
+    }
+
+    .testimonial_item h4 {
+        padding: 5px 0;
+    }
+
+    /* testimonial section */
+
+    /* signin section */
+    #signin form {
+        margin: 10px 0;
+    }
+
+    /* signin section */
+
+    /* footer section */
+    #footer {
+        padding-top: 50px;
+    }
+
+    #footer_inner {
+        padding: 30px 0;
+    }
+
+    .footer_item ul {
+        padding-top: 15px;
+    }
+
+    /* footer section */
+}
+
+/* screen 576px */
+@media (max-width: 576px) {
+
+    /* needed style */
+    :root {
+        /* font-size */
+        --t-20: 8px;
+        --t-22: 9px;
+        --t-23: 9px;
+        --t-25: 10px;
+        --t-30: 15px;
+        --t-65: 25px;
+        --t-100: 30px;
+        /* margin */
+        --m-h-100: 30px 0;
+        /* section space */
+        --sspace: 50px 0 20px 0;
+        /* font-weight */
+        --ftw-light: 300;
+        --ftw-med: 400;
+        --ftw-sbold: 500;
+        --ftw-bold: 600;
+        /* border-radios */
+        --btm-5: 5%;
+        --btm-15: 15px;
+    }
+
+    /* title tag */
+    .title {
+        margin: 0 30px;
+        line-height: 30px;
+    }
+
+    .link_btm {
+        padding: 5px 10px;
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 10px;
+    }
+
+    .nav_low {
+        padding: 15px;
+    }
+
+    .active {
+        top: 48px;
+    }
+
+    /* needed style end */
+
+    /* banner section */
+    .banner_text h1 {
+        line-height: 35px;
+    }
+
+    .banner_text p {
+        line-height: 25px;
+        padding: 8px 0 12px 0;
+    }
+
+    /* banner section */
+
+    /* product section */
+    .item {
+        padding: 10px;
+    }
+
+    .item h2 {
+        padding: 5px 0;
+    }
+
+    .item p {
+        padding: 0;
+    }
+
+    /* product section */
+
+    /* media section */
+    .media_text {
+        padding: 20px 0 20px 15px;
+    }
+
+    .media_text h1 {
+        text-align: left;
+    }
+
+    .media_text p {
+        padding: 10px 0;
+        text-overflow: ellipsis;
+    }
+
+    /* media section */
+
+    /* testimonial section */
+
+    .testimonial_text p {
+        padding: 10px 0;
+    }
+
+    .testimonial_item {
+        padding: 10px;
+    }
+
+    .testimonial_item h4 {
+        padding: 5px 0;
+    }
+
+    /* testimonial section */
+
+    /* signin section */
+    #signin form {
+        margin: 10px 0;
+    }
+
+    #email {
+        padding: 10px 35px;
+    }
+
+    /* signin section */
+
+    /* footer section */
+    #footer {
+        padding-top: 30px;
+    }
+
+    #footer a img {
+        width: 25%;
+    }
+
+    #footer_inner {
+        padding: 15px 0;
+        grid-template: "footer_item1 footer_item2 footer_item3 footer_item4"auto / 25% 25% 25% 25%;
+
+    }
+
+    .footer_item {
+        text-align: left;
+    }
+
+    .footer_item ul {
+        padding-top: 7px;
+    }
+
+    .footer_item li a {
+        padding: 5px 0;
+    }
+
+    /* footer section */
+}
+
+/* screen 480px */
+@media (max-width: 480px) {
+
+    /* needed style */
+    :root {
+        /* font-size */
+        --t-20: 12px;
+        --t-22: 14px;
+        --t-23: 13px;
+        --t-25: 16px;
+        --t-30: 20px;
+        --t-65: 27px;
+        --t-100: 35px;
+    }
+
+    .container {
+        width: 90% !important;
+        margin: 0 auto;
+    }
+
+    /* needed style end */
+    /* banner section */
+    #banner_inner {
+        display: grid;
+        grid-template: "banner_text"auto "banner_img"auto / 100%;
+    }
+
+    .banner_text {
+        padding: 15px 0;
+    }
+
+    .banner_img img {
+        width: 50%;
+
+    }
+
+    /* banner section */
+
+    /* product section */
+    #product_inner {
+        grid-template: "item1"auto "item2"auto "item3"auto / 80%;
+    }
+
+    .item {
+        margin: 20px 0;
+    }
+
+    .item h2 {
+        padding: 15px;
+    }
+
+    /* product section */
+
+    /* media section */
+    #media_inner {
+        justify-items: center;
+        grid-template: "media_video"auto "media_text"auto/ 100% 100%;
+    }
+
+    .media_video {
+        width: 100%;
+        height: 300px;
+    }
+
+    .media_text {
+        text-align: center;
+        padding: 20px 0;
+    }
+
+    .media_text h1 {
+        text-align: center;
+    }
+
+    /* media section */
+
+    /* testimonial section */
+
+    #testimonial_inner {
+        grid-template: "testimonial_text"auto "testimonial_inner"auto / 100% 100%;
+    }
+
+    .testimonial_text {
+        text-align: center;
+    }
+
+    .testimonial_main {
+        grid-template: "testimonial_item1"auto "testimonial_item2"auto / 100%;
+    }
+
+    .testimonial_item {
+        text-align: center;
+        padding: 15px;
+        margin: 20px 0;
+    }
+
+    .testimonial_item img {
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+    }
+
+    .testimonial_item h4 {
+        padding: 10px 0;
+    }
+
+    /* testimonial section */
+
+    /* signin section */
+
+    #submit {
+        padding: 0 10px;
+    }
+
+    /* signin section */
+
+    /* footer section */
+
+    .footer_item h3 {
+        font-size: 10px;
+    }
+
+    .footer_item li {
+        margin: -7px;
+    }
+
+    .footer_item li a {
+        font-size: 8px;
+    }
+
+    /* footer section */
+}
