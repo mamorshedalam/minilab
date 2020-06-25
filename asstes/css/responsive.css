@@ -354,6 +354,10 @@
     /* testimonial section */
 
     /* signin section */
+    .signin_form {
+        grid-template: "email . submit"auto / 50% 5% 20%;
+    }
+
     #signin form {
         margin: 10px 0;
     }
